@@ -47,12 +47,12 @@ body, html {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional: adds a shadow for depth */
 }
 
-#stop {
+#bottleneck {
   border: 2px dashed red;
   position: relative;
 }
 
-#stop::after {
+#bottleneck::after {
   content: '';
   position: absolute;
   top: -10px;

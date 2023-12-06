@@ -17,7 +17,7 @@ const App: React.FC = () => {
         <div className="block" id="explore" onClick={() => handleBlockClick('Explore')}>Explore</div>
       </div>
       <div className="row">
-        <div className="block" id="stop" onClick={() => handleBlockClick('Stop')}>Stop (event)</div>
+        <div className="block" id="bottleneck" onClick={() => handleBlockClick('Stop')}>Stop (event)</div>
       </div>
       <div className="row">
         <div className="block" id="deals" onClick={() => handleBlockClick('Deals')}>Deals Selector</div>
